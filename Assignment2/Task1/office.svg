@@ -1,0 +1,23 @@
+<svg width="100%" height="100%" version="1.1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<!--Insert an image as background-->
+<image  width="729px" height="526px"
+         xlink:href="images/office.jpg">
+</image>
+
+<!--Draw the Cafeteria and create a hyperling-->
+<a xlink:href="image.svg">
+<polygon points="25,428, 59,404, 59,417, 94,417, 
+	94,441, 58,441, 58,453,25,428"
+style="fill:yellow;stroke:black;stroke-width:2;
+fill-opacity:1;stroke-opacity:1"/>
+</a>
+
+<text id="TextElement" x="110" y="150" font-size="30"
+style="text-anchor:middle;font-family:Arial;font-weight:bold;font-size:26;fill:orange;stroke:black">
+E-50
+</text>
+
+</svg>

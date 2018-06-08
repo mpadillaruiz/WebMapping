@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+	<name>CanadaTrip.kml</name>
+	<open>1</open>
+	<Folder>
+		<name>CanadaTrip</name>
+		<open>1</open>
+		
+		<Style id="city_image">
+				<IconStyle>	
+					
+					<scale>1</scale>
+					<Icon>
+						<href>star_icon.png</href>
+					</Icon>
+				</IconStyle>
+		</Style>
+		
+		<LookAt>
+			<longitude>-91.28578889</longitude>
+			<latitude>53.86615833</latitude>
+			<altitude>0</altitude>
+			<range>6000000</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		
+		<Placemark>
+		<name>Trip</name>
+		
+		<styleUrl>#default0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			
+			<coordinates>
+				-63.57523865785325,44.64876359884137,0 
+				-66.06338642834989,45.27333957214979,0 
+				-66.64311509769482,45.96358949467658,0 
+				-71.20798089772605,46.81387830140097,0 
+				-73.56725600627355,45.50168891429523,0 
+				-75.69719309810233,45.42152964404055,0 
+				-79.38318429956243,43.65322599325539,0 
+				-89.24768230142442,48.38089511817874,0 
+				-97.13749369368279,49.89975410434337,0 
+				-104.6188943957221,50.4452111901311,0 
+				-114.070845873998,51.04861508566666,0 
+				-123.1207374947273,49.28272909942012,0 
+				-123.365644402482,48.42842070321998,0 
+			</coordinates>
+		</LineString>
+		</Placemark>
+		
+		<Placemark>
+			<name>Halifax</name>
+			<description><![CDATA[<h2>Capital of British Columbia</h2>
+				<img src=images/victoria.jpg" width="230" height="172"><br>
+				<a href="http://www.hua.gr">http://www.hua.gr</a>]]></description>
+			<LookAt>
+				<longitude>-63.57523865785325</longitude>
+				<latitude>44.64876359884137</latitude>
+				<altitude>0</altitude>
+				<heading>2.961897590166795e-008</heading>
+				<tilt>0</tilt>
+				<range>203794.2780035209</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#city_image</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-63.57523865785325,44.64876359884137,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		
+		
+		<Placemark>
+			<name>Fredericton</name>
+			<LookAt>
+				<longitude>-66.64311509769482</longitude>
+				<latitude>45.96358949467658</latitude>
+				<altitude>0</altitude>
+				<heading>1.657193030675069e-009</heading>
+				<tilt>0</tilt>
+				<range>25033.95387536046</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#city_image</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-66.64311509769482,45.96358949467658,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>QuebecCity</name>
+			<LookAt>
+				<longitude>-71.20798089772605</longitude>
+				<latitude>46.81387830140097</latitude>
+				<altitude>0</altitude>
+				<heading>1.658047009607042e-009</heading>
+				<tilt>0</tilt>
+				<range>49226.1317837716</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#city_image</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-71.20798089772605,46.81387830140098,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		
+		
+		<Placemark>
+			<name>Ottawa</name>
+			<LookAt>
+				<longitude>-75.69719309810233</longitude>
+				<latitude>45.42152964404055</latitude>
+				<altitude>0</altitude>
+				<heading>1.351695982688476e-009</heading>
+				<tilt>0</tilt>
+				<range>101274.3012069008</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#city_image</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.69719309810233,45.42152964404055,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Toronto</name>
+			<LookAt>
+				<longitude>-79.38318429956243</longitude>
+				<latitude>43.65322599325539</latitude>
+				<altitude>0</altitude>
+				<heading>3.020063892236866e-010</heading>
+				<tilt>0</tilt>
+				<range>52027.18951730714</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#city_image</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-79.38318429956243,43.65322599325539,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		
+		
+		<Placemark>
+			<name>Winnipeg</name>
+			<LookAt>
+				<longitude>-97.13749369368279</longitude>
+				<latitude>49.89975410434337</latitude>
+				<altitude>0</altitude>
+				<heading>4.832130852571122e-009</heading>
+				<tilt>0</tilt>
+				<range>46413.61836543159</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#city_image</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-97.13749369368279,49.89975410434338,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Regina</name>
+			<LookAt>
+				<longitude>-104.6188943957221</longitude>
+				<latitude>50.4452111901311</latitude>
+				<altitude>0</altitude>
+				<heading>3.298333801872793e-009</heading>
+				<tilt>0</tilt>
+				<range>22920.44805524491</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#city_image</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-104.6188943957221,50.44521119013109,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Calgary</name>
+			<LookAt>
+				<longitude>-114.070845873998</longitude>
+				<latitude>51.04861508566666</latitude>
+				<altitude>0</altitude>
+				<heading>2.022120969273085e-008</heading>
+				<tilt>0</tilt>
+				<range>90544.14787016303</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#city_image</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-114.070845873998,51.04861508566665,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Vancouver</name>
+			<LookAt>
+				<longitude>-123.1207374947273</longitude>
+				<latitude>49.28272909942012</latitude>
+				<altitude>0</altitude>
+				<heading>3.996392401696361e-009</heading>
+				<tilt>0</tilt>
+				<range>23497.97957496775</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#city_image</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.1207374947273,49.28272909942012,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Victoria</name>
+			<description><![CDATA[<h2>Capital of British Columbia</h2>
+				<img src=images/Victoria.jpg" width="230" height="172"><br>
+				<a href="http://www.hua.gr">http://www.hua.gr</a>]]></description>
+			<LookAt>
+				<longitude>-123.365644402482</longitude>
+				<latitude>48.42842070321998</latitude>
+				<altitude>0</altitude>
+				<heading>-1.856861892467986e-009</heading>
+				<tilt>0</tilt>
+				<range>11946.52368609871</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#city_image</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-123.365644402482,48.42842070321998,0</coordinates>
+			</Point>
+		</Placemark>
+		
+		<Placemark>
+			<name>Fence</name>
+			<LineString>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					23.708623,37.960863,3 23.707885,37.960356,3 
+					23.707063,37.961114,3 23.708572,37.96215,3 
+					23.709384,37.961379,3 23.708681,37.960895,3 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Folder>
+			<name>Central Building</name>
+			<open>1</open>
+			<Placemark>
+				<name>Central Building</name>
+				<Polygon id="khPolygon784">
+					<extrude>1</extrude>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing id="khLinearRing775">
+							<coordinates>
+								23.708108,37.961083,10 23.708449,37.961307,10 
+								23.708318,37.961429,10 23.707978,37.961203,10 
+								23.708108,37.961083,10 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Folder>
+				<name>Roof</name>
+				<open>1</open>
+				<Placemark>
+					<name>Trapezoid 1</name>
+					<Polygon id="khPolygon784">
+						<altitudeMode>relativeToGround</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing id="khLinearRing785">
+								<coordinates>
+									23.708318,37.961429,10 23.708307,37.961338,14 
+									23.708095,37.961195,14 23.707978,37.961203,10 
+									23.708318,37.961429,10  
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Trapezoid 2</name>
+					<Polygon id="khPolygon784">
+						<altitudeMode>relativeToGround</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing id="khLinearRing785">
+								<coordinates>
+									23.708108,37.961083,10 23.708449,37.961307,10
+									23.708307,37.961338,14 23.708095,37.961195,14
+									23.708108,37.961083,10
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Triangle 1</name>
+					<Polygon id="khPolygon784">
+						<altitudeMode>relativeToGround</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing id="khLinearRing785">
+								<coordinates>
+									23.708108,37.961083,10 23.707978,37.961203,10 
+									23.708095,37.961195,14 23.708108,37.961083,10
+ 								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<Placemark>
+					<name>Triangle 2</name>
+					<Polygon id="khPolygon784">
+						<altitudeMode>relativeToGround</altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing id="khLinearRing785">
+								<coordinates>
+								23.708449,37.961307,10 23.708318,37.961429,10 
+								23.708307,37.961338,14 23.708449,37.961307,10  
+ 								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Trip from Eastern to Western Canada</name>
+			<open>1</open>
+			
+			
+			<Style id="plane_image">
+				<IconStyle>	
+					<color>ff000000</color>
+					<scale>1</scale>
+					<Icon>
+						<href>plane_icon.png</href>
+					</Icon>
+				</IconStyle>
+			</Style>
+			
+			
+			
+			<Placemark>
+				<TimeSpan>
+  					<begin>2009-01-01T07:59:30Z</begin>  
+  					<end>2009-01-01T08:00:00Z</end>    
+				</TimeSpan>
+				<styleUrl>#plane_image</styleUrl>
+	      			<Point><coordinates>-63.57523865785325,44.64876359884137,0 
+				 </coordinates></Point>
+  			</Placemark>	
+			
+			<Placemark>
+				<TimeStamp>
+					<when>2009-01-01T08:00:10Z</when>
+				</TimeStamp>
+				<styleUrl>#plane_image</styleUrl>
+	      			<Point><coordinates>-66.06338642834989,45.27333957214979,0 
+				</coordinates></Point>
+  			</Placemark>
+			
+			<Placemark>
+				<TimeStamp>
+					<when>2009-01-01T08:00:20Z</when>
+				</TimeStamp>
+				<styleUrl>#plane_image</styleUrl>
+	      			<Point><coordinates>-66.64311509769482,45.96358949467658,0 
+				</coordinates></Point>
+  			</Placemark>
+			
+			<Placemark>
+				<TimeStamp>
+					<when>2009-01-01T08:00:30Z</when>
+				</TimeStamp>
+				<styleUrl>#plane_image</styleUrl>
+	      			<Point><coordinates>-71.20798089772605,46.81387830140097,0 
+				</coordinates></Point>
+  			</Placemark>
+			<Placemark>
+				<TimeStamp>
+  					<when>2009-01-01T08:00:40Z</when>
+   
+				</TimeStamp>
+				<styleUrl>#plane_image</styleUrl>
+	      			<Point><coordinates>-73.56725600627355,45.50168891429523,0 
+				</coordinates></Point>
+  			</Placemark>
+			<Placemark>
+				<TimeStamp>
+  					<when>2009-01-01T08:00:50Z</when>   
+				</TimeStamp>
+				<styleUrl>#plane_image</styleUrl>
+	      			<Point><coordinates>-75.69719309810233,45.42152964404055,0 
+				 
+				</coordinates></Point>
+  			</Placemark>
+			<Placemark>
+				<TimeStamp>
+  					<when>2009-01-01T08:01:00Z</when>   
+				</TimeStamp>
+				<styleUrl>#plane_image</styleUrl>
+	      			<Point><coordinates>-79.38318429956243,43.65322599325539,0 
+				
+				</coordinates></Point>
+  			</Placemark>
+			<Placemark>
+				<TimeStamp>
+  					<when>2009-01-01T08:01:10Z</when> 
+				</TimeStamp>
+				<styleUrl>#plane_image</styleUrl>
+	      			<Point><coordinates>-89.24768230142442,48.38089511817874,0 
+				 
+				</coordinates></Point>
+  			</Placemark>
+			<Placemark>
+				<TimeStamp>
+  					<when>2009-01-01T08:01:20Z</when>   
+				</TimeStamp>
+				<styleUrl>#plane_image</styleUrl>
+	      			<Point><coordinates>-97.13749369368279,49.89975410434337,0 
+				 
+				</coordinates></Point>
+  			</Placemark><Placemark>
+				<TimeStamp>
+  					<when>2009-01-01T08:01:30Z</when>   
+				</TimeStamp>
+				<styleUrl>#plane_image</styleUrl>
+	      			<Point><coordinates>-104.6188943957221,50.4452111901311,0 
+				 
+				</coordinates></Point>
+  			</Placemark>
+			<Placemark>
+				<TimeStamp>
+  					<when>2009-01-01T08:01:40Z</when>    
+				</TimeStamp>
+				<styleUrl>#plane_image</styleUrl>
+	      			<Point><coordinates>-114.070845873998,51.04861508566666,0 
+				
+				</coordinates></Point>
+  			</Placemark>
+			<Placemark>
+				<TimeStamp>
+  					<when>2009-01-01T08:01:50Z</when>    
+				</TimeStamp>
+				<styleUrl>#plane_image</styleUrl>
+	      			<Point><coordinates>-123.1207374947273,49.28272909942012,0 
+				
+				</coordinates></Point>
+  			</Placemark>
+			<Placemark>
+				<TimeSpan>
+  					<begin>2009-01-01T08:02:00Z</begin>  
+  					<end>2009-01-01T08:02:10Z</end>    
+				</TimeSpan>
+				<styleUrl>#plane_image</styleUrl>
+	      			<Point><coordinates>-123.365644402482,48.42842070321998,0  
+				</coordinates></Point>
+  			</Placemark>
+			
+		</Folder>
+	</Folder>
+</Document>
+</kml>

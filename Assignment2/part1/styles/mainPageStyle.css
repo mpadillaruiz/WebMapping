@@ -1,0 +1,81 @@
+/* CSS style sheet */
+
+header {
+	background-color:#333333;
+    padding:5px;
+	color:#0066FF;
+	float:top;
+	font: 900 14px/22px "Arial", Helvetica, sans-serif;
+	border-bottom:solid #003380;
+	
+}
+h1,h3{
+	text-align:center;
+}
+#Table1{
+	width:100%;
+	height:15%;
+    float:center;
+}
+#unb_logo{
+    float:center;
+	text-align:center;
+	padding-left:5%;
+}
+#imageTitle {
+    float:left;
+	padding-left:10%;
+}
+#gge_logo{
+    float:left;
+	padding-left:15%;
+	padding-top:5%;
+}
+body{
+background: -moz-linear-gradient(white, grey);
+}
+section {
+	
+    float:center;
+
+}
+object {
+
+    margin-left: 20%;
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+
+
+em {
+	font-weight:bold; 
+	font-size:110%; 
+	color:#003380;
+}
+.coloredCell{
+	background-color:#3366ff
+}
+#main{
+	color:#000000;
+	padding-right:15%;
+	padding-left:15%;
+}
+#map{
+	margin-left: 10%;
+}
+.centeredimg{
+	float:center;
+	top: 50%;
+    margin-left: 50%;
+}
+footer {
+	margin-right:1%;
+	margin-top:20;
+	text-align:center;
+    float:center;
+	width:100%;
+	height:15%;
+}
+
+
+

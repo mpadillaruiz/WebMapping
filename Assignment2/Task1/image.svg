@@ -1,0 +1,190 @@
+<svg width="100%" height="100%" version="1.1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<style type="text/css">
+<![CDATA[
+	text.visible {
+		visibility:visible;}
+	
+	text.unvisible{
+		visibility:hidden;}
+	
+	text.legend{
+		font-family:Calibri;
+		fill:orange;
+		stroke:black;
+		stroke-width:0.3}
+				
+	text.title{
+		font-family:Verdana;
+		font-size:20px;
+		fill:white;}
+				
+	em {
+		font-weight:bold; 
+		font-size:110%; 
+		color:#003380;}
+ ]]>
+</style>
+
+<script type="text/javascript">
+    <![CDATA[
+    
+    function appear()
+    {
+        var b = document.getElementById("text1");
+		b.setAttribute("class", "visible");
+		var audio = new Audio('Pig.mp3');
+		audio.play();
+		setTimeout(function() { b.setAttribute("class", "unvisible"); }, 500);
+    }
+	
+	 ]]>
+</script>
+	 
+<!--Map as background-->
+<image  width="761px" height="634px"
+         xlink:href="images/map.png" align="center">
+</image>
+
+
+<!--Draw UNB-->
+<polygon points="404,277, 475,310, 589,424, 687,563, 
+	733,631, 215,633, 404,277"
+style="fill:orange;stroke:black;stroke-width:2;
+fill-opacity:0.3;stroke-opacity:1"
+/>
+
+
+<!--Draw the Gym and create a hyperlink-->
+<a xlink:href="http://www.unb.ca/fredericton/urec/" target="blank">
+<polygon points="574,506, 596,531, 576,551, 550,524, 
+	574,506"
+style="fill:blue;stroke:black;stroke-width:2;
+fill-opacity:0.7;stroke-opacity:1"/>
+</a>
+
+<!--Draw home and create a hyperlink-->
+<a xlink:href="home.svg">
+<ellipse cx="71" cy="306" rx="4" ry="4"
+style="fill:yellow;stroke:black;stroke-width:2;"
+
+        />
+</a>
+
+
+<!--Draw the path-->
+<path d="M76 306 L137 203 L193 204 L215 210 L388 304 L381 321 L415 338 L426 316
+		L415 338 L431 348 L510 384 L517 405 L564 461 L582 512" id="theMotionPath"
+style="fill-opacity:0;stroke:rgb(255,255,255);stroke-width:3;"/>
+
+
+<!--Draw HeadHall and create a hyperlink-->
+<a xlink:href="headHall.svg">
+<polygon points="416,302, 441,314, 402,397, 374,385, 
+	416,302"
+style="fill:purple;stroke:black;stroke-width:2;
+fill-opacity:0.5;stroke-opacity:1"/>
+</a>
+
+
+<!--Draw the office and create a hyperling-->
+<a xlink:href="office.svg">
+<ellipse cx="430" cy="317" rx="4" ry="4"
+style="fill:orange;stroke:black;stroke-width:2;"/>
+</a>
+
+
+<!--Type the Title and create a hyperlink-->
+
+<text id="TextElement" x="385" y="40" font-size="30" 
+style="text-anchor:middle;font-family:Arial;font-weight:bold;fill:orange;stroke:black">
+My daily movements in </text> 
+
+<text id="TextElement" x="385" y="75" font-size="30" 
+style="text-anchor:middle;font-family:Arial;font-weight:bold;fill:white;stroke:black"><a target="blank" xlink:href="http://www.fredericton.ca/en/">Fredericton</a>
+</text>
+
+
+<!--Create an moving image along a path-->
+<!--The path is the same as the one defined previously-->
+<!--The image is shifted half its size, to get its centre aligned with the path-->
+<g transform="translate(-25,-60)">
+<image  width="60px" height="70px"
+         xlink:href="images/pigimage.gif"
+		 onmousedown="appear()"
+		 style="cursor:pointer"
+>
+		 
+		 
+
+
+<animateMotion dur="20s" repeatCount="indefinite">
+<mpath xlink:href="#theMotionPath"/>
+</animateMotion> 
+</image>
+</g>
+
+<text id="text1" x="254" y="377" style="font-family:Verdana;
+			fill:orange;
+			font-size:100px;
+			stroke:black;
+			stroke-width:0.3" class="unvisible">Oink!</text>
+
+<!--Draw the Legend-->
+<rect x="21" y="426" width="200" height="180"
+style="fill:white;stroke:orange;stroke-width:2;
+fill-opacity:0.8;stroke-opacity:0.5"/>
+
+<rect x="31" y="436" width="25" height="25"
+style="fill:orange;stroke:black;stroke-width:2;
+fill-opacity:0.3;stroke-opacity:1"/>
+
+<rect x="31" y="473" width="25" height="25"
+style="fill:purple;stroke:black;stroke-width:2;
+fill-opacity:0.5;stroke-opacity:1"/>
+
+<ellipse cx="41" cy="555" rx="4" ry="4"
+style="fill:orange;stroke:black;stroke-width:2"/>
+
+<ellipse cx="41" cy="582" rx="4" ry="4"
+style="fill:yellow;stroke:black;stroke-width:2;"/>
+
+<rect x="31" y="510" width="25" height="25"
+style="fill:blue;stroke:black;stroke-width:2;
+fill-opacity:0.7;stroke-opacity:1"/>
+
+
+<!--Text in the Legend-->
+<text id="TextElement" x="32" y="420" 
+class="title">
+LEGEND
+</text>
+
+<text id="TextElement" x="71" y="455" 
+class="legend">
+UNB
+</text>
+
+<text id="TextElement" x="71" y="491" 
+class="legend">
+Head Hall
+</text>
+
+<text id="TextElement" x="71" y="527" 
+class="legend">
+Gymnasium
+</text>
+
+<text id="TextElement" x="71" y="560" 
+class="legend">
+Office
+</text>
+
+<text id="TextElement" x="71" y="586" 
+class="legend">
+Home
+</text>
+
+</svg>

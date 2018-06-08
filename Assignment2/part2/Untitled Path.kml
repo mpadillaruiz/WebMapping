@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Untitled Path.kml</name>
+	<Style id="default">
+		<LineStyle>
+			<width>2.2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="default0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hl">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<LineStyle>
+			<width>2.2</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Untitled Path</name>
+		<styleUrl>#default0</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-18.2042914704112,24.86055623355765,0 -18.28497693685335,24.14954954449755,0 -18.17925911901546,20.58424871997736,0 -20.73192886797989,22.84934250142008,0 -18.61962273528764,19.58966789159301,0 -6.997459489209486,24.50697398992136,0 -8.205991138327676,18.23386333187234,0 -15.92001544921111,16.02707604840363,0 -18.30092753358389,19.87160630315775,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

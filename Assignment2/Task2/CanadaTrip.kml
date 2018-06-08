@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+
+<Document>
+	<name>CanadaTrip.kml</name>
+	<open>1</open>
+	<Folder>
+		<name>CanadaTrip</name>
+		<open>1</open>
+		
+		<Style id="city_image">
+				<IconStyle>	
+					<scale>1</scale>
+					<Icon>
+						<href>http://gaia.gge.unb.ca/wmaps/students/marta/Assignment2/Task2/icons/star_icon.png</href>
+					</Icon>
+				</IconStyle>
+		</Style>
+		
+		 <Style id="path_style">
+				<LineStyle>
+					<color>7f0000ff</color>
+					<width>2</width>
+				</LineStyle>
+		</Style>
+		
+		<LookAt>
+			<longitude>-91.28578889</longitude>
+			<latitude>53.86615833</latitude>
+			<altitude>0</altitude>
+			<range>6000000</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		
+		<Placemark>
+			<name>Path</name>
+			<styleUrl>#path_style</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-63.57523865785325,44.64876359884137,0 
+					-66.64311509769482,45.96358949467658,0 
+					-71.20798089772605,46.81387830140097,0 
+					-75.69719309810233,45.42152964404055,0 
+					-79.38318429956243,43.65322599325539,0			
+					-97.13749369368279,49.89975410434337,0 
+					-114.070845873998,51.04861508566666,0 
+					-123.1207374947273,49.28272909942012,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	
+		<Folder>
+			<name>Cities</name>
+			<open>0</open>
+			
+			<Placemark>
+				<name>Halifax</name>
+				<description><![CDATA[<h4>City of Halifax</h4>
+					<p>Capital of the province of Nova Scotia</p>
+					<img src="http://gaia.gge.unb.ca/wmaps/students/marta/Assignment2/Task2/images/Halifax.jpg" width="300" height="200"><br>
+					<a href="http://www.halifax.ca/home/">http://www.halifax.ca/home/</a>]]></description>
+				<LookAt>
+					<longitude>-63.57523865785325</longitude>
+					<latitude>44.64876359884137</latitude>
+					<altitude>0</altitude>
+					<heading>2.961897590166795e-008</heading>
+					<tilt>0</tilt>
+					<range>203794.2780035209</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#city_image</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-63.57523865785325,44.64876359884137,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<Placemark>
+				<name>Fredericton</name>
+				<description><![CDATA[<h4>City of Fredericton</h4>
+					<p>Capital of the province of New Brunswick</p>
+					<img src="http://gaia.gge.unb.ca/wmaps/students/marta/Assignment2/Task2/images/Fredericton.jpg" width="300" height="200"><br>
+					<a href="http://www.fredericton.ca/">http://www.fredericton.ca/</a>]]></description>
+				<LookAt>
+					<longitude>-66.64311509769482</longitude>
+					<latitude>45.96358949467658</latitude>
+					<altitude>0</altitude>
+					<heading>1.657193030675069e-009</heading>
+					<tilt>0</tilt>
+					<range>25033.95387536046</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#city_image</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-66.64311509769482,45.96358949467658,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<Placemark>
+				<name>QuebecCity</name>
+				<description><![CDATA[<h4>City of Quebec</h4>
+					<p>Capital of the province of Quebec</p>
+					<img src="http://gaia.gge.unb.ca/wmaps/students/marta/Assignment2/Task2/images/QuebecCity.jpg" width="300" height="200"><br>
+					<a href="https://www.ville.quebec.qc.ca/en/">https://www.ville.quebec.qc.ca/en/</a>]]></description>
+				<LookAt>
+					<longitude>-71.20798089772605</longitude>
+					<latitude>46.81387830140097</latitude>
+					<altitude>0</altitude>
+					<heading>1.658047009607042e-009</heading>
+					<tilt>0</tilt>
+					<range>49226.1317837716</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#city_image</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-71.20798089772605,46.81387830140098,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<Placemark>
+				<name>Ottawa</name>
+				<description><![CDATA[<h4>City of Ottawa</h4>
+					<p>Capital city of Canada</p>
+					<img src="http://gaia.gge.unb.ca/wmaps/students/marta/Assignment2/Task2/images/Ottawa.jpg" width="300" height="200"><br>
+					<a href="http://ottawa.ca/en">http://ottawa.ca/en</a>]]></description>
+				<LookAt>
+					<longitude>-75.69719309810233</longitude>
+					<latitude>45.42152964404055</latitude>
+					<altitude>0</altitude>
+					<heading>1.351695982688476e-009</heading>
+					<tilt>0</tilt>
+					<range>101274.3012069008</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#city_image</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-75.69719309810233,45.42152964404055,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<Placemark>
+				<name>Toronto</name>
+				<description><![CDATA[<h4>City of Toronto</h4>
+					<p>Capital of the province of Ontario and the most populous city in Canada</p>
+					<img src="http://gaia.gge.unb.ca/wmaps/students/marta/Assignment2/Task2/images/Toronto.jpg" width="300" height="200"><br>
+					<a href="www.toronto.ca/">www.toronto.ca/</a>]]></description>
+				<LookAt>
+					<longitude>-79.38318429956243</longitude>
+					<latitude>43.65322599325539</latitude>
+					<altitude>0</altitude>
+					<heading>3.020063892236866e-010</heading>
+					<tilt>0</tilt>
+					<range>52027.18951730714</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#city_image</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-79.38318429956243,43.65322599325539,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<Placemark>
+				<name>Winnipeg</name>
+				<description><![CDATA[<h4>City of Winnipeg</h4>
+					<p>Capital of the province of Manitoba</p>
+					<img src="http://gaia.gge.unb.ca/wmaps/students/marta/Assignment2/Task2/images/Winnipeg.jpg" width="300" height="200"><br>
+					<a href="www.winnipeg.ca/">www.winnipeg.ca/</a>]]></description>
+				<LookAt>
+					<longitude>-97.13749369368279</longitude>
+					<latitude>49.89975410434337</latitude>
+					<altitude>0</altitude>
+					<heading>4.832130852571122e-009</heading>
+					<tilt>0</tilt>
+					<range>46413.61836543159</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#city_image</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-97.13749369368279,49.89975410434338,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<Placemark>
+				<name>Calgary</name>
+				<description><![CDATA[<h4>City of Calgary</h4>
+					<p>Largest city of the province of Alberta</p>
+					<img src="http://gaia.gge.unb.ca/wmaps/students/marta/Assignment2/Task2/images/Calgary.jpg" width="300" height="200"><br>
+					<a href="www.calgary.ca/">www.calgary.ca/</a>]]></description>
+				<LookAt>
+					<longitude>-114.070845873998</longitude>
+					<latitude>51.04861508566666</latitude>
+					<altitude>0</altitude>
+					<heading>2.022120969273085e-008</heading>
+					<tilt>0</tilt>
+					<range>90544.14787016303</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#city_image</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-114.070845873998,51.04861508566665,0</coordinates>
+				</Point>
+			</Placemark>
+			
+			<Placemark>
+				<name>Vancouver</name>
+				<description><![CDATA[<h4>City of Vancouver</h4>
+					<p>Largest city of the province of British Columbia</p>
+					<img src="http://gaia.gge.unb.ca/wmaps/students/marta/Assignment2/Task2/images/Vancouver.jpg" width="300" height="200"><br>
+					<a href="http://vancouver.ca/">http://vancouver.ca/</a>]]></description>
+				<LookAt>
+					<longitude>-123.1207374947273</longitude>
+					<latitude>49.28272909942012</latitude>
+					<altitude>0</altitude>
+					<heading>3.996392401696361e-009</heading>
+					<tilt>0</tilt>
+					<range>23497.97957496775</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#city_image</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-123.1207374947273,49.28272909942012,0</coordinates>
+				</Point>
+			</Placemark>
+			
+		</Folder>
+	
+		<Folder>
+			<name>Trip from Eastern to Western Canada</name>
+			<open>0</open>
+			
+			<Style id="start_image">
+				<IconStyle>	
+					<scale>4</scale>
+					<Icon>
+						<href>http://gaia.gge.unb.ca/wmaps/students/marta/Assignment2/Task2/icons/start_icon.png</href>
+					</Icon>
+					<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			
+			<Style id="stop_image">
+				<IconStyle>	
+					<scale>4</scale>
+					<Icon>
+						<href>http://gaia.gge.unb.ca/wmaps/students/marta/Assignment2/Task2/icons/stop_icon.png</href>
+					</Icon>
+					<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+			
+			<Style id="traveller_image">
+				<IconStyle>	
+					<scale>5</scale>
+					<Icon>
+						<href>http://gaia.gge.unb.ca/wmaps/students/marta/Assignment2/Task2/icons/traveller_icon.png</href>
+					</Icon>
+					<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+				</IconStyle>
+			</Style>
+					
+			<Placemark>
+				<TimeSpan>
+  					<begin>2016-01-01T08:00:00Z</begin>  
+  					<end>2016-01-01T08:00:04Z</end>    
+				</TimeSpan>
+				<styleUrl>#start_image</styleUrl>
+	      			<Point>
+						<coordinates>-63.57523865785325,44.64876359884137,0</coordinates>
+					</Point>
+  			</Placemark>			
+			
+			<Placemark>
+				<TimeStamp>
+					<when>2016-01-01T08:00:05Z</when>
+				</TimeStamp>
+				<styleUrl>#traveller_image</styleUrl>
+	      			<Point>
+						<coordinates>-63.57523865785325,44.64876359884137,0</coordinates>
+					</Point>
+  			</Placemark>
+			
+			<Placemark>
+				<TimeStamp>
+					<when>2016-01-01T08:00:15Z</when>
+				</TimeStamp>
+				<styleUrl>#traveller_image</styleUrl>
+	      			<Point>
+						<coordinates>-66.64311509769482,45.96358949467658,0</coordinates>
+					</Point>
+  			</Placemark>
+			
+			<Placemark>
+				<TimeStamp>
+					<when>2016-01-01T08:00:25Z</when>
+				</TimeStamp>
+				<styleUrl>#traveller_image</styleUrl>
+	      			<Point>
+						<coordinates>-71.20798089772605,46.81387830140097,0</coordinates>
+					</Point>
+  			</Placemark>
+			
+			<Placemark>
+				<TimeStamp>
+  					<when>2016-01-01T08:00:35Z</when>   
+				</TimeStamp>
+				<styleUrl>#traveller_image</styleUrl>
+	      			<Point>
+						<coordinates>-75.69719309810233,45.42152964404055,0</coordinates>
+					</Point>
+  			</Placemark>
+			
+			<Placemark>
+				<TimeStamp>
+  					<when>2016-01-01T08:00:45Z</when>   
+				</TimeStamp>
+				<styleUrl>#traveller_image</styleUrl>
+	      			<Point>
+						<coordinates>-79.38318429956243,43.65322599325539,0 </coordinates>
+					</Point>
+  			</Placemark>
+
+			<Placemark>
+				<TimeStamp>
+  					<when>2016-01-01T08:00:55Z</when> 
+				</TimeStamp>
+				<styleUrl>#traveller_image</styleUrl>
+	      			<Point>
+						<coordinates>-97.13749369368279,49.89975410434337,0 </coordinates>
+					</Point>
+  			</Placemark>
+			
+			<Placemark>
+				<TimeStamp>
+  					<when>2016-01-01T08:01:05Z</when>    
+				</TimeStamp>
+				<styleUrl>#traveller_image</styleUrl>
+	      			<Point>
+						<coordinates>-114.070845873998,51.04861508566666,0</coordinates>
+					</Point>
+  			</Placemark>
+			
+			<Placemark>
+				<TimeSpan>
+  					<begin>2016-01-01T08:01:15Z</begin>  
+  					<end>2016-01-01T08:01:19Z</end>    
+				</TimeSpan>
+				<styleUrl>#traveller_image</styleUrl>
+	      			<Point>
+						<coordinates>-123.1207374947273,49.28272909942012,0</coordinates>
+					</Point>
+  			</Placemark>	
+			
+			<Placemark>
+				<TimeStamp>
+  					<when>2016-01-01T08:01:20Z</when>    
+				</TimeStamp>
+				<styleUrl>#stop_image</styleUrl>
+	      			<Point>
+						<coordinates>-123.1207374947273,49.28272909942012,0</coordinates>
+					</Point>
+  			</Placemark>
+			
+		</Folder>
+		
+	</Folder>
+	
+</Document>
+
+</kml>
